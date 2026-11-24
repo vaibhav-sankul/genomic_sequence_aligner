@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class HardwareInfo:
-    """Detailed summary of the host system's compute and GPU capabilities."""
+    """Detailed summary of the host system's compute and GPU capabilities.""" 
     has_cuda: bool
     device_count: int
     device_name: str
